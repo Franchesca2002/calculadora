@@ -24,6 +24,10 @@ function factorial(num){
     res *=i
   }
 }
+//function para calcular el exponente entre dos numeros
+function exponente(num1,num2){
+    return num1 ** num2
+}
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
