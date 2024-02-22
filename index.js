@@ -17,12 +17,17 @@ function sumar(num1, num2) {
   function dividir(num1,num2){
     return num1 / num2;
   }
-//function factorial de un numero
+//funcion factorial de un numero
 function factorial(num){
   let res =1;
   for (let i = 1; i<=num; i++){
     res *=i
   }
+}
+
+//funcion para sacar la raiz cuadrada
+function raizcuadrada(num){
+    return Math.sqrt(num)
 }
 //function para calcular el exponente entre dos numeros
 function exponente(num1,num2){
