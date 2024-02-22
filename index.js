@@ -3,6 +3,15 @@ function sumar(num1, num2) {
     return num1 + num2;
   }
   
+  //Funcion para restar dos numeros
+  function restar(num1, num2){
+    return num1 - num2;
+  }
+
+  //funcion para multiplicar dos numeros
+  function multiplicar(num1,num2){
+    return num1 * num2;
+  }
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
